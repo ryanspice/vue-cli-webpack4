@@ -10,7 +10,7 @@ export default class HelloWorld extends Vue {
 	data() {
 
 		return {
-			msg: 'Welcome to Your PLIB Vue.js App',
+			msg: 'Welcome to Your Webpack 4 Vue.js App',
 		};
 
 	}

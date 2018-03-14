@@ -13,7 +13,8 @@ module.exports = {
   extends: ['plugin:vue/essential', 'airbnb-base'],
   // required to lint *.vue files
   plugins: [
-    'vue'
+    'vue',
+    "flowtype-errors"
   ],
   // check if imports actually resolve
   settings: {
@@ -24,7 +25,15 @@ module.exports = {
     }
   },
   // add your custom rules here
-  rules: {
+	rules: {
+
+		"indent": ["error", "tab"],
+		"padded-blocks": ["warn", "always"],
+		"class-methods-use-this":'off',
+		"no-tabs":'off',
+		"global-require":'off',
+    	"flowtype-errors/show-errors": 5,
+
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       js: 'never',

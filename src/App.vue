@@ -1,14 +1,17 @@
 <template>
-  <div id="app">
+  <div id="app" class="fade-in">
     <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App',
-};
+import Vue from 'vue';
+import { Component } from 'vue-property-decorator';
+
+@Component
+export default class App extends Vue {	}
+
 </script>
 
 <style>
@@ -20,4 +23,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
 </style>

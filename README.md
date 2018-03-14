@@ -1,6 +1,14 @@
-# vuejs-webpack4
+# plib-vue
 
-> vuejs-webpack with updated dependencies, flow-type, vue-components and decorators
+> A Vue.js project
+
+## Built Using
+
+https://github.com/vuejs-templates/webpack
+https://alligator.io/vuejs/components-flow/
+https://alligator.io/vuejs/typescript-class-components/
+https://github.com/vuejs/vue-class-component
+
 
 ## Build Setup
 

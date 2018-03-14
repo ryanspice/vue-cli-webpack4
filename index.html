@@ -3,10 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>vuejs-webpack4</title>
+    <title>plib-vue</title>
+	<style>
+
+		.fade-in {
+			opacity: 1;
+			animation-name: fadeInOpacity;
+			animation-iteration-count: 1;
+			animation-timing-function: ease;
+			animation-duration: 200ms;
+		}
+
+		@keyframes fadeInOpacity {
+			0% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+	</style>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app" class="fade-in">
+		<img style="position:absolute;left:50%;top:35%;margin:0px auto;margin-left:-25px;width:50px;" src="https://cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif" />
+	</div>
     <!-- built files will be auto injected -->
   </body>
 </html>

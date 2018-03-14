@@ -1,6 +1,10 @@
-# plib-vue
+# vuejs-webpack4
 
-> A Vue.js project
+> Webpack4!
+
+> Woolulu!
+
+This project is really this project [vue-cli](https://github.com/vuejs/vue-cli) mixed with [vuejs-webpack](https://github.com/vuejs-templates/webpack/blob/develop/README.md) and a few modifications like es6 style Vue components, decorators and Webpack 4!
 
 ## Built Using
 
@@ -8,7 +12,6 @@ https://github.com/vuejs-templates/webpack
 https://alligator.io/vuejs/components-flow/
 https://alligator.io/vuejs/typescript-class-components/
 https://github.com/vuejs/vue-class-component
-
 
 ## Build Setup
 

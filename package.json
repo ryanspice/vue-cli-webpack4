@@ -1,8 +1,8 @@
 {
-  "name": "plib-vue",
+  "name": "veujs-webpack4",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Ryan Spice <ryan.spice-finnie@openlane.com>",
+  "author": "Ryan Spice-Finnie <contact@ryanspice.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
